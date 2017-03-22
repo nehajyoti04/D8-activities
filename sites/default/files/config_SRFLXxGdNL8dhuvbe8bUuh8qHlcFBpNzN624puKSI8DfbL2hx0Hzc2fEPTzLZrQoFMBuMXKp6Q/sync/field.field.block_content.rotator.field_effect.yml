@@ -1,0 +1,23 @@
+uuid: f4a113b6-a154-40c0-b4c8-58d6060e8548
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotator
+    - field.storage.block_content.field_effect
+  module:
+    - options
+id: block_content.rotator.field_effect
+field_name: field_effect
+entity_type: block_content
+bundle: rotator
+label: Effect
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: slide
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,5 @@
+services:
+  node:
+    class: Drupal\d8_activity_list\ParamConverter\D8ActivityListParamConverter
+    tags:
+      - { name: paramconverter }
